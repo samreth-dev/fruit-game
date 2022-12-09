@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import CoreData
 
 class GameEntryViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
