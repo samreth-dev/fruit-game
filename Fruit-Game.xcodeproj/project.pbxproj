@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5336D51F2942F3FA004966AB /* GameEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336D51E2942F3FA004966AB /* GameEntryViewModel.swift */; };
+		5336D5212942F7CB004966AB /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336D5202942F7CB004966AB /* UIViewExtensions.swift */; };
+		5337F9F4293D32E900BB1BDF /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337F9F3293D32E900BB1BDF /* GameModel.swift */; };
+		5337F9F6293D330700BB1BDF /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337F9F5293D330700BB1BDF /* DB.swift */; };
+		5337F9F9293D34D800BB1BDF /* GamePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337F9F8293D34D800BB1BDF /* GamePlayViewModel.swift */; };
+		5337F9FC293D555E00BB1BDF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337F9FB293D555E00BB1BDF /* UIImageViewExtension.swift */; };
+		53AB083F293CF98F004CD58B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB083E293CF98F004CD58B /* AppDelegate.swift */; };
+		53AB0841293CF98F004CD58B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB0840293CF98F004CD58B /* SceneDelegate.swift */; };
+		53AB0843293CF98F004CD58B /* GameEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB0842293CF98F004CD58B /* GameEntryViewController.swift */; };
+		53AB0846293CF98F004CD58B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AB0844293CF98F004CD58B /* Main.storyboard */; };
+		53AB0849293CF98F004CD58B /* Fruit_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53AB0847293CF98F004CD58B /* Fruit_Game.xcdatamodeld */; };
+		53AB084B293CF990004CD58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AB084A293CF990004CD58B /* Assets.xcassets */; };
+		53AB084E293CF990004CD58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AB084C293CF990004CD58B /* LaunchScreen.storyboard */; };
+		53AB087F293D03E3004CD58B /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB087D293D03E3004CD58B /* GamePlayViewController.swift */; };
+		53AB0880293D03E3004CD58B /* GamePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53AB087E293D03E3004CD58B /* GamePlayViewController.xib */; };
+		53AB0885293D04FF004CD58B /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB0884293D04FF004CD58B /* GameLevel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5336D51E2942F3FA004966AB /* GameEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntryViewModel.swift; sourceTree = "<group>"; };
+		5336D5202942F7CB004966AB /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		5337F9F3293D32E900BB1BDF /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		5337F9F5293D330700BB1BDF /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		5337F9F8293D34D800BB1BDF /* GamePlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewModel.swift; sourceTree = "<group>"; };
+		5337F9FB293D555E00BB1BDF /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		53AB083B293CF98F004CD58B /* Fruit-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AB083E293CF98F004CD58B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53AB0840293CF98F004CD58B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53AB0842293CF98F004CD58B /* GameEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntryViewController.swift; sourceTree = "<group>"; };
+		53AB0845293CF98F004CD58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53AB0848293CF98F004CD58B /* Fruit_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fruit_Game.xcdatamodel; sourceTree = "<group>"; };
+		53AB084A293CF990004CD58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53AB084D293CF990004CD58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53AB084F293CF990004CD58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AB087D293D03E3004CD58B /* GamePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
+		53AB087E293D03E3004CD58B /* GamePlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamePlayViewController.xib; sourceTree = "<group>"; };
+		53AB0884293D04FF004CD58B /* GameLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AB0838293CF98F004CD58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5336D51D2942F3D2004966AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5337F9F8293D34D800BB1BDF /* GamePlayViewModel.swift */,
+				5336D51E2942F3FA004966AB /* GameEntryViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		5337F9FA293D555100BB1BDF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5337F9FB293D555E00BB1BDF /* UIImageViewExtension.swift */,
+				5336D5202942F7CB004966AB /* UIViewExtensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		53AB0832293CF98F004CD58B = {
+			isa = PBXGroup;
+			children = (
+				53AB083D293CF98F004CD58B /* Fruit-Game */,
+				53AB083C293CF98F004CD58B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AB083C293CF98F004CD58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AB083B293CF98F004CD58B /* Fruit-Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AB083D293CF98F004CD58B /* Fruit-Game */ = {
+			isa = PBXGroup;
+			children = (
+				5336D51D2942F3D2004966AB /* ViewModel */,
+				53AB087C293CFEE0004CD58B /* Storyboards */,
+				53AB087A293CFEC8004CD58B /* Views */,
+				53AB0883293D04F6004CD58B /* Models */,
+				53AB0878293CFEB7004CD58B /* DB */,
+				5337F9FA293D555100BB1BDF /* Utils */,
+				53AB0875293CFE89004CD58B /* Apps */,
+				53AB0876293CFE8E004CD58B /* Resources */,
+			);
+			path = "Fruit-Game";
+			sourceTree = "<group>";
+		};
+		53AB0875293CFE89004CD58B /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				53AB0840293CF98F004CD58B /* SceneDelegate.swift */,
+				53AB083E293CF98F004CD58B /* AppDelegate.swift */,
+			);
+			name = Apps;
+			sourceTree = "<group>";
+		};
+		53AB0876293CFE8E004CD58B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53AB084A293CF990004CD58B /* Assets.xcassets */,
+				53AB084C293CF990004CD58B /* LaunchScreen.storyboard */,
+				53AB084F293CF990004CD58B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53AB0878293CFEB7004CD58B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				5337F9F5293D330700BB1BDF /* DB.swift */,
+				53AB0847293CF98F004CD58B /* Fruit_Game.xcdatamodeld */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		53AB087A293CFEC8004CD58B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53AB0842293CF98F004CD58B /* GameEntryViewController.swift */,
+				53AB087D293D03E3004CD58B /* GamePlayViewController.swift */,
+				53AB087E293D03E3004CD58B /* GamePlayViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53AB087C293CFEE0004CD58B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				53AB0844293CF98F004CD58B /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		53AB0883293D04F6004CD58B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53AB0884293D04FF004CD58B /* GameLevel.swift */,
+				5337F9F3293D32E900BB1BDF /* GameModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53AB083A293CF98F004CD58B /* Fruit-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AB0868293CF990004CD58B /* Build configuration list for PBXNativeTarget "Fruit-Game" */;
+			buildPhases = (
+				53AB0837293CF98F004CD58B /* Sources */,
+				53AB0838293CF98F004CD58B /* Frameworks */,
+				53AB0839293CF98F004CD58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fruit-Game";
+			productName = "Fruit-Game";
+			productReference = 53AB083B293CF98F004CD58B /* Fruit-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AB0833293CF98F004CD58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					53AB083A293CF98F004CD58B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 53AB0836293CF98F004CD58B /* Build configuration list for PBXProject "Fruit-Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53AB0832293CF98F004CD58B;
+			productRefGroup = 53AB083C293CF98F004CD58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AB083A293CF98F004CD58B /* Fruit-Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AB0839293CF98F004CD58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AB084E293CF990004CD58B /* LaunchScreen.storyboard in Resources */,
+				53AB084B293CF990004CD58B /* Assets.xcassets in Resources */,
+				53AB0880293D03E3004CD58B /* GamePlayViewController.xib in Resources */,
+				53AB0846293CF98F004CD58B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AB0837293CF98F004CD58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AB0843293CF98F004CD58B /* GameEntryViewController.swift in Sources */,
+				53AB087F293D03E3004CD58B /* GamePlayViewController.swift in Sources */,
+				53AB083F293CF98F004CD58B /* AppDelegate.swift in Sources */,
+				5337F9F6293D330700BB1BDF /* DB.swift in Sources */,
+				53AB0849293CF98F004CD58B /* Fruit_Game.xcdatamodeld in Sources */,
+				5337F9FC293D555E00BB1BDF /* UIImageViewExtension.swift in Sources */,
+				5337F9F4293D32E900BB1BDF /* GameModel.swift in Sources */,
+				53AB0885293D04FF004CD58B /* GameLevel.swift in Sources */,
+				5336D51F2942F3FA004966AB /* GameEntryViewModel.swift in Sources */,
+				53AB0841293CF98F004CD58B /* SceneDelegate.swift in Sources */,
+				5336D5212942F7CB004966AB /* UIViewExtensions.swift in Sources */,
+				5337F9F9293D34D800BB1BDF /* GamePlayViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53AB0844293CF98F004CD58B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AB0845293CF98F004CD58B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53AB084C293CF990004CD58B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AB084D293CF990004CD58B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53AB0866293CF990004CD58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53AB0867293CF990004CD58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53AB0869293CF990004CD58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2B25QMYTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fruit-Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.samreth.demo.Fruit-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53AB086A293CF990004CD58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2B25QMYTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fruit-Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.samreth.demo.Fruit-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AB0836293CF98F004CD58B /* Build configuration list for PBXProject "Fruit-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AB0866293CF990004CD58B /* Debug */,
+				53AB0867293CF990004CD58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AB0868293CF990004CD58B /* Build configuration list for PBXNativeTarget "Fruit-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AB0869293CF990004CD58B /* Debug */,
+				53AB086A293CF990004CD58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53AB0847293CF98F004CD58B /* Fruit_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53AB0848293CF98F004CD58B /* Fruit_Game.xcdatamodel */,
+			);
+			currentVersion = 53AB0848293CF98F004CD58B /* Fruit_Game.xcdatamodel */;
+			path = Fruit_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53AB0833293CF98F004CD58B /* Project object */;
+}
