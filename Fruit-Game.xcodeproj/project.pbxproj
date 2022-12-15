@@ -57,24 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5336D51D2942F3D2004966AB /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				5337F9F8293D34D800BB1BDF /* GamePlayViewModel.swift */,
-				5336D51E2942F3FA004966AB /* GameEntryViewModel.swift */,
-			);
-			name = ViewModel;
-			sourceTree = "<group>";
-		};
-		5337F9FA293D555100BB1BDF /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				5337F9FB293D555E00BB1BDF /* UIImageViewExtension.swift */,
-				5336D5202942F7CB004966AB /* UIViewExtensions.swift */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
 		53AB0832293CF98F004CD58B = {
 			isa = PBXGroup;
 			children = (
@@ -94,12 +76,12 @@
 		53AB083D293CF98F004CD58B /* Fruit-Game */ = {
 			isa = PBXGroup;
 			children = (
-				5336D51D2942F3D2004966AB /* ViewModel */,
-				53AB087C293CFEE0004CD58B /* Storyboards */,
+				53ED2927294AF1C4001CF74D /* Models */,
 				53AB087A293CFEC8004CD58B /* Views */,
-				53AB0883293D04F6004CD58B /* Models */,
-				53AB0878293CFEB7004CD58B /* DB */,
-				5337F9FA293D555100BB1BDF /* Utils */,
+				53ED2926294AF1BF001CF74D /* ViewModels */,
+				53ED2928294AF1D7001CF74D /* DB */,
+				53ED2924294AF199001CF74D /* Utils */,
+				53AB087C293CFEE0004CD58B /* Storyboards */,
 				53AB0875293CFE89004CD58B /* Apps */,
 				53AB0876293CFE8E004CD58B /* Resources */,
 			);
@@ -125,15 +107,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		53AB0878293CFEB7004CD58B /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				5337F9F5293D330700BB1BDF /* DB.swift */,
-				53AB0847293CF98F004CD58B /* Fruit_Game.xcdatamodeld */,
-			);
-			name = DB;
-			sourceTree = "<group>";
-		};
 		53AB087A293CFEC8004CD58B /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,13 +125,40 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		53AB0883293D04F6004CD58B /* Models */ = {
+		53ED2924294AF199001CF74D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5337F9FB293D555E00BB1BDF /* UIImageViewExtension.swift */,
+				5336D5202942F7CB004966AB /* UIViewExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		53ED2926294AF1BF001CF74D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5337F9F8293D34D800BB1BDF /* GamePlayViewModel.swift */,
+				5336D51E2942F3FA004966AB /* GameEntryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		53ED2927294AF1C4001CF74D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				53AB0884293D04FF004CD58B /* GameLevel.swift */,
 				5337F9F3293D32E900BB1BDF /* GameModel.swift */,
 			);
-			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53ED2928294AF1D7001CF74D /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				5337F9F5293D330700BB1BDF /* DB.swift */,
+				53AB0847293CF98F004CD58B /* Fruit_Game.xcdatamodeld */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
